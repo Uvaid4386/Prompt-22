@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabank Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="navl">
+                <p>Alphabank</p>
+            </div>
+            <!-- <img src="Albhabank-logo.png" alt=""> -->
+            <div class="progress-container">
+                <div class="progress-step active">
+                    <div class="circle">1</div>
+                    <div class="label">About you</div>
+                </div>
+                <div class="progress-step">
+                    <div class="circle">2</div>
+                    <div class="label">Billing information</div>
+                </div>
+                <div class="progress-step">
+                    <div class="circle">3</div>
+                    <div class="label">Get started</div>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <h3>About you</h3>
+        </div>
+        <div class="middle">
+            <div class="ml">
+                <h2>Personal info</h2>
+                <p>provide your personal info</p>
+            </div>
+            <div class="mr">
+                <input type="text" id="organization" name="organization" value="Fintory" readonly>
+                <div class="mrl">
+                    <label for="title">Title*</label>
+                    <select id="title" name="title">
+                        <option value="Ms">Ms</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Dr">Dr</option>
+                    </select>
+                
+                    <label for="first-name">First name*</label>
+                    <input type="text" id="first-name" name="first-name" value="diana" readonly>
+                
+                    <label for="last-name">Last name*</label>
+                    <input type="text" id="last-name" name="last-name" value="Palavandishvili" readonly>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bl">
+                <h2>Professional info</h2>
+                <p>Provide your Professional info</p>
+            </div>
+            <div class="section">
+                <label for="languages">Language(s)</label>
+                <select id="languages" name="languages">
+                    <option value="German,English">German,English</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                </select>
+
+                <label for="employment">Type of employment</label>
+                <!-- <input type="text" id="employment" name="employment" value="Freelance" readonly> -->
+                <select id="employment" name="employment">
+                    <option value="Freelancer">Freelancer</option>
+                    <option value="Bussiness">Bussiness</option>
+                    <option value="Employed">Employed</option>
+                </select>
+
+                <label for="profession">Profession</label>
+                <!-- <input type="text" id="profession" name="profession" value="UI/UX Designer" readonly> -->
+                <select id="Profession" name="Profession">
+                    <option value="UI/UX Designer">UI/UX Designer</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Database Engineer">Database Engineer</option>
+                </select>
+
+                <label for="proficiency">Proficiency level</label>
+                <!-- <input type="text" id="proficiency" name="proficiency" value="Intermediate"> -->
+                <select id="Proficiency" name="Proficiency">
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Professional">Professional</option>
+                </select>
+            </div>
+        </div>
+        <div class="antim">
+            <button>Skip</button>
+            <button id="snc">Save & Continue</button>
+        </div>
+        
+    </div>
+</body>
+</html>
